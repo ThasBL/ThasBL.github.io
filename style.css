@@ -237,3 +237,20 @@ button:hover {
     transform: scale(1.5);
     transition: 0.2s;
 }
+
+/* ************************** RESPONSIVE ****************** */
+@media screen and (max-width: 1800px) {
+    #prestations {
+       display: inline;
+        justify-content: space-around;
+        padding: 30px 10%;
+    }
+}
+ @media sreen and (max-width:1405px) {
+    #prestations {
+        display: inline-block;
+         justify-content: space-around;
+         padding: 30px 10%;
+     }
+ }
+ 
